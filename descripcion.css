@@ -1,0 +1,60 @@
+/* Estilos generales de la página */
+.page {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.page__title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos de la tabla de cursos */
+.course__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.course__header {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+}
+
+.course__row:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.course__row:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+.course__name {
+  padding: 10px;
+}
+
+.course__code,
+.course__program,
+.course__instructor,
+.course__classroom,
+.course__schedule {
+  padding: 10px;
+}
+
+.course__description {
+  padding: 10px;
+}
+
+.course__link {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.course__link:hover {
+  text-decoration: underline;
+}

@@ -1,47 +1,54 @@
+<!-- Página index.html, Julio Emmanuel Valenzuela Arredondo - 216774 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Webpage Title</title>
+    <title>Página de Inicio</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="page">
     <header class="header">
-      <img
-        class="header__image"
-        src="header-image.jpg"
-        alt="Header Image"
-        width="200"
-        height="100"
-      />
-      <h1 class="header__title">Your Page Title</h1>
+      <h1 class="header__title">Bienvenido a mi sitio!</h1>
     </header>
+    <div class="side-bar">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="horario.html">Horario</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="page2.html">Aficiones</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="page3.html">Contáctame</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="main">
+        <img
+          class="header__image"
+          src="https://media.licdn.com/dms/image/C4E03AQHGvF-pp3Mvkg/profile-displayphoto-shrink_800_800/0/1660171620567?e=1700697600&v=beta&t=STzNcvOUgKINDbeIqf9WhtZqyefAXwr-HFcPbHipGWw"
+          alt="Header Image"
+          width="200"
+          height="200"
+        />
+        <h2 class="main__heading">
+          Hola! Me llamo Julio y este es mi sitio web.
+        </h2>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item">
-          <a class="nav__link" href="page1.html">Page 1</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="page2.html">Page 2</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="page3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-
-    <main class="main">
-      <h2 class="main__heading">Main Content</h2>
-      <p class="main__content">This is the main content of your webpage.</p>
-    </main>
+        <p class="main__content">
+          Actualmente curso la carrera de Ingeniería en Software, 5to Semestre.
+        </p>
+      </main>
+    </div>
 
     <footer class="footer">
-      <div class="footer__contact">Contact Info:</div>
-      <p class="footer__info">Name: John Doe</p>
-      <p class="footer__info">Email: john.doe@example.com</p>
-      <p class="footer__info">Phone: (123) 456-7890</p>
+      <div class="footer__contact">Información de contacto:</div>
+      <p class="footer__info">Julio Emmanuel Valenzuela Arredondo</p>
+      <p class="footer__info">julio-emmanuel2011@hotmail.com</p>
+      <p class="footer__info">647-115-2041</p>
+      <p class="footer__info">Villa Itson, Cd. Obregón</p>
     </footer>
   </body>
 </html>

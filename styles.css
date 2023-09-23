@@ -1,0 +1,81 @@
+/* styles.css */
+@import url(horario.css);
+@import url(descripcion.css);
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.side-bar {
+  display: flex;
+  height: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: gray;
+  font-family: sans-serif;
+  color: white;
+  height: 100vh;
+  margin: 0;
+}
+
+.header__image {
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  height: 100%;
+  width: 104px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 25px;
+  list-style-type: none;
+  padding: 0;
+  height: 100%;
+}
+
+.nav__item {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main {
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  max-width: 1670px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

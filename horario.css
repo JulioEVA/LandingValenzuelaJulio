@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Gris claro para el fondo de la página */
+  color: #333; /* Texto principal en gris oscuro */
+  margin: 0;
+  padding: 0;
+}
+
+.horario {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.horario__title {
+  color: #555; /* Título en gris más oscuro */
+}
+
+/* Estilos para la tabla */
+.horario__table {
+  border: 1px solid black;
+  width: 100%;
+  background-color: #fff; /* Fondo de la tabla en blanco */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.horario__header {
+  background-color: #eee; /* Encabezados en un gris más claro */
+  color: #555;
+  width: 0px;
+}
+
+.horario__cell {
+  border: 1px solid #ddd; /* Borde en gris claro */
+  padding: 10px;
+  text-align: center;
+  max-width: 42px;
+}
+
+/* Enlaces */
+.horario__link {
+  text-decoration: none;
+  color: #0078d4; /* Color de enlace azul */
+}
+
+.horario__link:hover {
+  text-decoration: none;
+}
+
+/* Estilos para las clases en la tabla */
+.horario__class {
+  background-color: #f0f0f0; /* Fondo de celda de clase en gris */
+}
+
+/* Estilos para los enlaces en las celdas de clase */
+.horario__class-link {
+  color: #0078d4; /* Color de enlace azul */
+}
+
+.horario__class-link:hover {
+  text-decoration: underline;
+}
+
+.horario__class-link:visited {
+  text-decoration: none;
+}

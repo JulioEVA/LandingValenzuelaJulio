@@ -1,6 +1,5 @@
 /* styles.css */
 @import url(horario.css);
-@import url(descripcion.css);
 
 .header {
   background-color: #333;
@@ -39,6 +38,8 @@
   text-align: center;
   height: 100%;
   width: 104px;
+  margin: 0;
+  padding: 15px;
 }
 
 .nav__list {
@@ -48,6 +49,7 @@
   row-gap: 25px;
   list-style-type: none;
   padding: 0;
+  margin: 0;
   height: 100%;
 }
 

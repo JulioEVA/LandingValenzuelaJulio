@@ -9,12 +9,11 @@ body {
 
 .horario {
   text-align: center;
-  padding: 20px;
   margin: 0;
 }
 
 .horario__title {
-  color: #555; /* Título en gris más oscuro */
+  color: #ffffff; /* Título en gris más oscuro */
 }
 
 /* Estilos para la tabla */
@@ -46,6 +45,10 @@ body {
 
 .horario__link:hover {
   text-decoration: none;
+}
+
+.horario__time {
+  color: black;
 }
 
 /* Estilos para las clases en la tabla */

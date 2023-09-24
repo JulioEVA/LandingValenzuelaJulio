@@ -5,79 +5,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Descripción de Cursos</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="descripcion.css" />
   </head>
   <body class="page">
-    <h1 class="page__title">Descripción de Cursos</h1>
-    <table class="course__table">
-      <tr class="course__row">
-        <th class="course__header">Curso</th>
-        <th class="course__header">Clave</th>
-        <th class="course__header">Programa</th>
-        <th class="course__header">Maestro</th>
-        <th class="course__header">Aula</th>
-        <th class="course__header">Horario</th>
-        <th class="course__header">Descripción</th>
-        <th class="course__header">Enlace</th>
-      </tr>
-      <tr class="course__row">
-        <td class="course__name">
-          <a id="C 1076C" class="course__link" href="horario.html"
-            >C 1076C - 6 Metodos Num Computacionales</a
-          >
-        </td>
-        <td class="course__code">1076C</td>
-        <td class="course__program">IC, IIS, ICA</td>
-        <td class="course__instructor">Juan Francisco Vázquez Beltrán</td>
-        <td class="course__classroom">LV1821</td>
-        <td class="course__schedule">LuMiVi 1:00 PM - 2:00 PM</td>
-        <td class="course__description">
-          Curso que se orienta a resolver problemas en el ámbito de la
-          ingeniería en forma numérica, como otra opción de solución a los
-          problemas resueltos analíticamente, como apoyo a la formación
-          especializada aplicada. Finalmente, este curso se ubica en el cuarto
-          semestre del programa educativo del Ingeniero Industrial y de
-          Sistemas, en el quinto semestre del Ingeniero Civil y del Ingeniero en
-          Ciencias Ambientales plan 2016.
-        </td>
-        <td class="course__link">
-          <a
-            target="_blank"
-            href="https://www.itson.mx/oferta/ica/Documents/M%C3%A9todos%20N%C3%BAmericos.pdf"
-            >Enlace a la materia</a
-          >
-        </td>
-      </tr>
-      <tr class="course__row">
-        <td class="course__name">
-          <a id="C 1076C" class="course__link" href="horario.html"
-            >C 1077C Pruebas de Software</a
-          >
-        </td>
-        <td class="course__code">C 1077C</td>
-        <td class="course__program">Ingeniero en Software</td>
-        <td class="course__instructor">Leticia María Rivera Limón</td>
-        <td class="course__classroom">Remoto</td>
-        <td class="course__schedule">MaJ 4:30PM - 6:00PM</td>
-        <td class="course__description">
-          Este curso pertenece al quinto semestre, del Bloque de Construcción,
-          se compone de tres unidades de competencia en los cuales el alumno
-          aprenderá los fundamentos de pruebas de software, su ciclo de vida, el
-          diseño y ejecución de pruebas de caja blanca y caja negra, así como
-          utilizar herramientas para gestionar la realización de pruebas.
-          Además, desarrollará competencias genéricas tales como solución de
-          problemas, trabajo en equipo y compromiso ético. Para lo cual se
-          requiere como prerrequisito matemáticas computacionales, probabilidad
-          y estadística, programación III y diseño de software.
-        </td>
-        <td class="course__link">
-          <a
-            target="_blank"
-            href="./recursos/Programa de curso - Versión Resumida.pdf"
-            >Enlace a la materia</a
-          >
-        </td>
-      </tr>
-    </table>
+    <header class="header">
+      <h1 class="page__title">Descripción de Cursos</h1>
+    </header>
+    <div class="side-bar">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="horario.html">Horario</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="aficiones.html">Aficiones</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="contactame.html">Contáctame</a>
+          </li>
+        </ul>
+      </nav>
+      <table class="course__table">
+        <tr class="course__row">
+          <th class="course__header">Curso</th>
+          <th class="course__header">Clave</th>
+          <th class="course__header">Programa</th>
+          <th class="course__header">Maestro</th>
+          <th class="course__header">Aula</th>
+          <th class="course__header">Horario</th>
+          <th class="course__header">Descripción</th>
+          <th class="course__header">Enlace</th>
+        </tr>
+        <tr class="course__row">
+          <td class="course__name">
+            <a id="1076C" class="course__link" href="horario.html"
+              >C 1076C - 6 Metodos Num Computacionales</a
+            >
+          </td>
+          <td class="course__code">C 1076C</td>
+          <td class="course__program">IC, IIS, ICA</td>
+          <td class="course__instructor">Juan Francisco Vázquez Beltrán</td>
+          <td class="course__classroom">LV1821</td>
+          <td class="course__schedule">LuMiVi 1:00 PM - 2:00 PM</td>
+          <td class="course__description">
+            Curso que se orienta a resolver problemas en el ámbito de la
+            ingeniería en forma numérica, como otra opción de solución a los
+            problemas resueltos analíticamente, como apoyo a la formación
+            especializada aplicada. Finalmente, este curso se ubica en el cuarto
+            semestre del programa educativo del Ingeniero Industrial y de
+            Sistemas, en el quinto semestre del Ingeniero Civil y del Ingeniero
+            en Ciencias Ambientales plan 2016.
+          </td>
+          <td class="course__link">
+            <a
+              target="_blank"
+              href="https://www.itson.mx/oferta/ica/Documents/M%C3%A9todos%20N%C3%BAmericos.pdf"
+              >Enlace a la materia</a
+            >
+          </td>
+        </tr>
+        <tr class="course__row">
+          <td class="course__name">
+            <a id="1077C" class="course__link" href="horario.html"
+              >C 1077C Pruebas de Software</a
+            >
+          </td>
+          <td class="course__code">C 1077C</td>
+          <td class="course__program">Ingeniero en Software</td>
+          <td class="course__instructor">Leticia María Rivera Limón</td>
+          <td class="course__classroom">Remoto</td>
+          <td class="course__schedule">MaJ 4:30PM - 6:00PM</td>
+          <td class="course__description">
+            Este curso pertenece al quinto semestre, del Bloque de Construcción,
+            se compone de tres unidades de competencia en los cuales el alumno
+            aprenderá los fundamentos de pruebas de software, su ciclo de vida,
+            el diseño y ejecución de pruebas de caja blanca y caja negra, así
+            como utilizar herramientas para gestionar la realización de pruebas.
+            Además, desarrollará competencias genéricas tales como solución de
+            problemas, trabajo en equipo y compromiso ético. Para lo cual se
+            requiere como prerrequisito matemáticas computacionales,
+            probabilidad y estadística, programación III y diseño de software.
+          </td>
+          <td class="course__link">
+            <a
+              target="_blank"
+              href="./recursos/Programa de curso - Versión Resumida.pdf"
+              >Enlace a la materia</a
+            >
+          </td>
+        </tr>
+      </table>
+    </div>
+    <footer class="footer">
+      <div class="footer__contact">Información de contacto:</div>
+      <p class="footer__info">Julio Emmanuel Valenzuela Arredondo</p>
+      <p class="footer__info">julio-emmanuel2011@hotmail.com</p>
+      <p class="footer__info">647-115-2041</p>
+      <p class="footer__info">Villa Itson, Cd. Obregón</p>
+    </footer>
   </body>
 </html>

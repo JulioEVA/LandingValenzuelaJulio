@@ -1,3 +1,5 @@
+@import url(styles.css);
+
 /* Estilos generales de la página */
 .page {
   background-color: #f0f0f0;
@@ -16,10 +18,10 @@
 .course__table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
 }
 
 .course__header {
+  border: 1px solid gray;
   background-color: #333;
   color: #fff;
   text-align: left;

@@ -1,0 +1,26 @@
+@import url(styles.css);
+
+/* Estilos para la galería */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Estilos para cada elemento de la galería */
+.gallery__item {
+  margin: 10px;
+  text-align: center;
+}
+
+.gallery__image {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.gallery__caption {
+  margin-top: 5px;
+}
